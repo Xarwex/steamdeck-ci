@@ -30,7 +30,7 @@ jobs:
       - uses: DeterminateSystems/magic-nix-cache-action@v8
       - uses: cachix/cachix-action@v15
         with:
-          name: hacker1024-jovian
+          name: xarwex-jovian
           authToken: '${{ secrets.CACHIX_AUTH_TOKEN }}'
       - uses: jlumbroso/free-disk-space@main
         with:
